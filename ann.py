@@ -52,7 +52,7 @@ def main(argv):
 	else:
 		if(arg[1] == 'a'):
 			print('f(x) = x + arctg(x - 1)')
-			funcaoIteracao(funcaoA, 2, x_abs)
+			funcaoIteracao(funcaoA, 2)
 		elif(arg[1] == 'b'):
 			print('f(x) = 9*(x ** 1/3) - e ** x')
 			if(not(float(argv[2]) > 0 and float(argv[2]) <= 1)):
